@@ -62,12 +62,10 @@ public class ProcessInfo {
 
     @Override
     public String toString() {
-        return "ProcessInfo{" +
-                "processId=" + processId +
-                ", processName='" + processName + '\'' +
-                ", parentProcessId=" + parentProcessId +
-                ", threadCount=" + threadCount +
-                ", basePriority=" + basePriority +
-                '}';
+        return "Processo ID: " + processId +
+                ", Nome: " + processName +
+                ", Processo Pai ID: " + parentProcessId +
+                ", Número de Threads: " + threadCount +
+                ", Prioridade Base: " + basePriority;
     }
 }
